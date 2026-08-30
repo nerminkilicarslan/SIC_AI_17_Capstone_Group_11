@@ -11,7 +11,6 @@ Gıda israfını azaltmaya yönelik, talep tahmini ve dinamik indirimleme temell
 
 ## İçerik
 
-- `new_AI_for_Food_Waste_Reduction_Capstone.pdf` — Literatür Taraması, Veri Araştırması ve Teknoloji İncelemesi raporu
 - `notebooks/` — Data preparation, feature engineering ve model exploration kodları
-- `reports/` — Faz raporları (docx)
+- `reports/` — Tüm raporlar (Literatür Taraması PDF'i, Capstone 3 Implementation Plan, Faz raporları docx) ve grafikler (`figures/`)
 - `data/` — Veri seti (Kaggle "Food Demand Forecasting" tarzı: train/test/meal_info/fulfilment_center_info). CSV'ler `.gitignore` ile repoya dahil edilmez; veriyi kendi ortamınızda `data/` altına kopyalamanız yeterli.
