@@ -1,0 +1,35 @@
+{
+  "baseline": {
+    "name": "baseline (original params)",
+    "best_iteration": 594,
+    "train_rmse": 0.43627392567487727,
+    "valid_rmse": 0.47628133743307666,
+    "rmsle_test": 0.47628134237372144,
+    "mae_test": 62.115496046801375
+  },
+  "tuned": {
+    "name": "tuned (Optuna, 40 trials)",
+    "best_iteration": 1360,
+    "train_rmse": 0.4331408216184564,
+    "valid_rmse": 0.4753374102230622,
+    "rmsle_test": 0.47533741524025985,
+    "mae_test": 61.802423416158355
+  },
+  "rmsle_improvement_pct": 0.19818688020764824,
+  "mae_improvement_pct": 0.5040169532046136,
+  "tuned_params": {
+    "objective": "regression",
+    "metric": "rmse",
+    "verbose": -1,
+    "seed": 42,
+    "feature_pre_filter": false,
+    "learning_rate": 0.02692053280761391,
+    "num_leaves": 64,
+    "min_data_in_leaf": 48,
+    "feature_fraction": 0.708312282750701,
+    "bagging_fraction": 0.8454887011519805,
+    "bagging_freq": 4,
+    "lambda_l1": 0.019201401202374752,
+    "lambda_l2": 5.509697698456197e-05
+  }
+}
