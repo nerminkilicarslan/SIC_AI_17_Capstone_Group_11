@@ -1,0 +1,20 @@
+{
+  "name": "kalibre edilmis final (alpha=.08/.5/.92, tuned params)",
+  "alphas": [
+    0.08,
+    0.5,
+    0.92
+  ],
+  "best_iterations": {
+    "0.08": 969,
+    "0.5": 1925,
+    "0.92": 951
+  },
+  "coverage": 0.8058864751226349,
+  "n_crossed": 9,
+  "n_total": 32821,
+  "pinball_lo": 10.126834639847784,
+  "pinball_mid": 29.919205051647868,
+  "pinball_hi": 13.614118108729405,
+  "seconds": 210.32665157318115
+}
