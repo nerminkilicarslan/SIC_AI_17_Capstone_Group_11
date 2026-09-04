@@ -1,0 +1,15 @@
+{
+  "best_params": {
+    "learning_rate": 0.02692053280761391,
+    "num_leaves": 64,
+    "min_data_in_leaf": 48,
+    "feature_fraction": 0.708312282750701,
+    "bagging_fraction": 0.8454887011519805,
+    "bagging_freq": 4,
+    "lambda_l1": 0.019201401202374752,
+    "lambda_l2": 5.509697698456197e-05
+  },
+  "best_inner_valid_rmse": 0.46762389453692765,
+  "baseline_inner_valid_rmse": 0.47135352017329785,
+  "n_trials": 40,
+  "inner_split_week": 
