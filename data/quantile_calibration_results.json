@@ -1,0 +1,62 @@
+[
+  {
+    "name": "orijinal (alpha=.1/.5/.9, baseline params)",
+    "alphas": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "best_iterations": {
+      "0.1": 992,
+      "0.5": 1240,
+      "0.9": 486
+    },
+    "coverage": 0.759940282136437,
+    "n_crossed": 29,
+    "n_total": 32821,
+    "pinball_lo": 11.99995109708179,
+    "pinball_mid": 30.177496692875746,
+    "pinball_hi": 15.810409517217995,
+    "seconds": 122.65291810035706
+  },
+  {
+    "name": "genis band (alpha=.05/.5/.95, baseline params)",
+    "alphas": [
+      0.05,
+      0.5,
+      0.95
+    ],
+    "best_iterations": {
+      "0.05": 548,
+      "0.5": 1240,
+      "0.95": 388
+    },
+    "coverage": 0.8748667011974041,
+    "n_crossed": 11,
+    "n_total": 32821,
+    "pinball_lo": 6.996840555567551,
+    "pinball_mid": 30.185776913817236,
+    "pinball_hi": 9.787646765261199,
+    "seconds": 97.2647807598114
+  },
+  {
+    "name": "genis band + tuned params (alpha=.05/.5/.95)",
+    "alphas": [
+      0.05,
+      0.5,
+      0.95
+    ],
+    "best_iterations": {
+      "0.05": 1443,
+      "0.5": 1925,
+      "0.95": 875
+    },
+    "coverage": 0.8666097925108924,
+    "n_crossed": 5,
+    "n_total": 32821,
+    "pinball_lo": 6.973889423315878,
+    "pinball_mid": 29.919296381246046,
+    "pinball_hi": 9.907680582471803,
+    "seconds": 220.35430669784546
+  }
+]
